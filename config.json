@@ -1,0 +1,25 @@
+{
+  "selenium": {
+    "chrome-driver-path": "/Users/hqc/Downloads/tools/chromedriver",
+    "brave-browser-path": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+  },
+  "api": {
+    "email": {
+      "domain": "https://api.mail.tm/domains",
+      "registration": "https://api.mail.tm/accounts",
+      "token": "https://api.mail.tm/token",
+      "message": "https://api.mail.tm/messages"
+    },
+    "clash-nodes": {
+      "fly": {
+        "registration": "https://www.flyintpro01.com/#/register"
+      },
+      "gou": {
+        "send-email": "https://m.jiasugou.club/auth/send",
+        "registration": "https://m.jiasugou.club/auth/register",
+        "login": "https://m.jiasugou.club/auth/login",
+        "profile": "https://m.jiasugou.club/user"
+      }
+    }
+  }
+}
