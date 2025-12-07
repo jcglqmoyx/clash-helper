@@ -1,5 +1,3 @@
-#!/Users/hqc/Documents/projects/python/.venv/bin/python3
-
 import sys
 
 import mail_tm
