@@ -15,10 +15,10 @@
         "registration": "https://www.flyintpro01.com/#/register"
       },
       "gou": {
-        "send-email": "https://m.jiasugou.shop/auth/send",
-        "registration": "https://m.jiasugou.shop/auth/register",
-        "login": "https://m.jiasugou.shop/auth/login",
-        "profile": "https://m.jiasugou.shop/user"
+        "send-email": "https://jiasugou.me/auth/send",
+        "registration": "https://jiasugou.me/auth/register",
+        "login": "https://jiasugou.me/auth/login",
+        "profile": "https://jiasugou.me/user"
       }
     }
   }

@@ -24,6 +24,8 @@ def main():
         register(email, password, verification_code)
         cookies = login(email, password)
         link = get_subscription_link(cookies)
+        import pyperclip
+        pyperclip.copy(link)
         print(link)
     else:
         print(f"Unknown command: {command}")
