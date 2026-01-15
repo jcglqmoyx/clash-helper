@@ -16,9 +16,10 @@ class Fly:
         brave_browser_path = config["selenium"]["brave-browser-path"]
         options = Options()
         options.binary_location = brave_browser_path
+        options.add_argument("--disable-extensions")
+        options.add_argument("profile-directory=Default")
         service = Service(chromedriver_path)
         self.driver = webdriver.Chrome(service=service, options=options)
-        self.vars = {}
 
     def __del__(self):
         self.driver.quit()
