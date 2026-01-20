@@ -1,7 +1,7 @@
 {
   "selenium": {
-    "chrome-driver-path": "/home/hqc/Downloads/tools/chromedriver",
-    "brave-browser-path": "/usr/bin/brave-browser"
+    "chrome-driver-path": "/Users/hqc/Downloads/tools/chromedriver",
+    "brave-browser-path": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
   },
   "api": {
     "email": {
